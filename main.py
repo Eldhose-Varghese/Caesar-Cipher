@@ -1,6 +1,8 @@
+import asci_art
 import cipher
 import string_joiner
 
+print(asci_art.asci_art_logo)
 alphabets = [chr(ord("a")+i) for i in range(26)]
 choice=True
 while choice==True:
